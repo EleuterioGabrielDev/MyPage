@@ -120,6 +120,11 @@ h3 {
     margin: 10px;
 }
 
+.contact a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 footer {
     background-color: #000000;
     text-align: center;
