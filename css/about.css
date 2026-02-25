@@ -1,2 +1,39 @@
 @charset "UTF-8";
 
+:root {
+    --bcsoft: #bb3ef534;
+}
+
+body {
+    background-color: #202020;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+ header {
+    background-color: #000000b7;
+    padding: 50px;
+    text-align: center;
+}
+
+.softsks {
+    margin-top: 50px;
+    background-color: var(--bcsoft);
+}
+
+.softsks h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px;
+}
+
