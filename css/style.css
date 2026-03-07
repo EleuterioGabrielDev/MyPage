@@ -1,24 +1,26 @@
 @charset "UTF-8";
 
 :root {
-    --nav:  #2d84f7de;
+    --nav:  #890fdbd7;
     --proj1: #4d8dee63;
     --proj2: #0740966c;
-    --shadow: #00000083;
-    --backss: #00000069;
+    --shadow: #45729783;
+    --backss: #1a181869;
+    --body: #000000;
 }
 
 body {
-    background-color: #202020;
+    background-color: var(--body);
     color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #000000b7;
     padding: 50px;
-    text-align: center;
+    text-align: justify;
+    background: #202020 url(../assets/img/fundo.png) center center no-repeat scroll;
+    background-size: cover;
 }
 
 header > h1 {
